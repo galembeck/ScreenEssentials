@@ -2,7 +2,6 @@ package com.redescreen.essentials.runnable;
 
 import com.redescreen.essentials.ScreenEssentialsPlugin;
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 
