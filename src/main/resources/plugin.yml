@@ -1,0 +1,5 @@
+name: ScreenEssentials
+version: 1.0
+main: com.redescreen.essentials.ScreenEssentialsPlugin
+authors: [ LDNzera, Screen ]
+website: https://github.com/LDNzera/
