@@ -2,21 +2,29 @@ package com.redescreen.essentials.runnable;
 
 import com.redescreen.essentials.ScreenEssentialsPlugin;
 import org.bukkit.Bukkit;
+import org.bukkit.Sound;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 
 import java.util.List;
 import java.util.Random;
 
-public class MessageTimer extends BukkitRunnable {
+public class InformativeMessagesTask extends BukkitRunnable {
 
     private List<String> messages;
     private boolean random;
     private int lastMessage;
 
-    public MessageTimer(ScreenEssentialsPlugin plugin) {
+    private boolean enableSounds;
+//    private String soundType;
+
+    public InformativeMessagesTask(ScreenEssentialsPlugin plugin) {
         this.random = plugin.getConfig().getBoolean("settings.auto-messaging.random");
-        this.messages = plugin.getConfig().getStringList("settings.auto-messaging.messages");
+
+        this.enableSounds = plugin.getConfig().getBoolean("settings.auto-messaging.sound-settings.enable-sounds");
+//        this.soundType = plugin.getConfig().getString("settings.auto-messaging.sound-settings.sound-type");
+
+        this.messages = plugin.getConfig().getStringList("messages.informative-messages");
     }
 
     @Override
@@ -44,6 +52,13 @@ public class MessageTimer extends BukkitRunnable {
 
         for(Player player : Bukkit.getOnlinePlayers()) {
             player.sendMessage(message.replace("&", "§").replace("@", "●").replace("^", "➜").replace("*", "✦").replace("~", "➜"));
+            if (enableSounds) {
+                // TODO: Add a "if" clause to be able to use different types of sounds... (VILLAGER_HAGGLE e LEVEL_UP)
+                player.playSound(player.getLocation(), Sound.VILLAGER_HAGGLE, 1, 1);
+//              } else {
+//                  player.playSound(player.getLocation(), Sound.VILLAGER_HAGGLE, 1, 1);
+//              }
+            }
         }
     }
 }
