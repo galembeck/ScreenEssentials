@@ -33,7 +33,7 @@ messages:
     - "\n\n &dTrabalhe conosco!\n\n \n\n &fAuxilie os jogadores de nossa comunidade e contribua para que\n &fse torne cada vez melhor.\n &7https://discord.gg/redescreen\n\n "
     - "\n\n &4Proteja sua conta!\n\n \n\n &fNossa equipe jamais solicitar\u00E1 algum dado de sua conta\n (lembre-se &fde usar uma senha segura e diferente de outros servidores!\n\n \n\n &fTroque sua senha regularmente com: &7/mudarsenha&f.\n\n "
     - "\n\n &bM\u00E9todos de Pagamento\n\n \n\n &fAceitamos diversos m\u00E9todos de pagamento em nossa loja online,\n sendo eles:\n &8@ &7Mercado Pago, PagSeguro, PayPal, PIX, PicPay, Ifood Giftcard e\n &7MB Way.\n\n \n\n &8^ &fNossa loja: &bloja.redescreen.com\n &8^ &fPara Ifood Giftcard e MB Way: &bhttps://discord.gg/redescreen\n    &7(Voc\u00EA deve abrir um ticket relacionado a compras)\n\n "
-    - "\n\n &d* Promo\u00E7\u00E3o de abertura &8~ &d70%!\n\n \n\n  &dAmetista (30 dias) &fa &8&mR$50,70 &715,21\n\n  &9Safira (90 dias) &fa &8&mR$184,7 &755,41\n\n  &cRubi (eterno) &fa &8&m352,7 &7105,81\n\n  &aEsmeralda (30 dias) &f &8&m168,7 &750,61\n\n \n\n &fCupom: &7ABERTURA\n &fAproveite a promo\u00E7\u00E3o em: &dloja.redescreen.com\n\n "
+    - "\n\n &d* Promo\u00E7\u00E3o de abertura &8^ &d70%!\n\n \n\n  &dAmetista (30 dias) &fa &8&mR$50,70 &715,21\n\n  &9Safira (90 dias) &fa &8&mR$184,7 &755,41\n\n  &cRubi (eterno) &fa &8&m352,7 &7105,81\n\n  &aEsmeralda (30 dias) &f &8&m168,7 &750,61\n\n \n\n &fCupom: &7ABERTURA\n &fAproveite a promo\u00E7\u00E3o em: &dloja.redescreen.com\n\n "
 
   # Mensagens responsáveis por definirem a descrição ("MOTD") do servidor, sendo elas, para quando o servidor está disponível/aberto para os usuário e quando o servidor se encontra em manutenção, respectivamente.
   server-description:

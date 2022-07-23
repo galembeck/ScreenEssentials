@@ -51,7 +51,7 @@ public class InformativeMessagesTask extends BukkitRunnable {
         }
 
         for(Player player : Bukkit.getOnlinePlayers()) {
-            player.sendMessage(message.replace("&", "§").replace("@", "●").replace("^", "➜").replace("*", "✦").replace("~", "➜"));
+            player.sendMessage(message.replace("&", "§").replace("@", "●").replace("^", "➜").replace("*", "✦"));
             if (enableSounds) {
                 // TODO: Add a "if" clause to be able to use different types of sounds... (VILLAGER_HAGGLE e LEVEL_UP)
                 player.playSound(player.getLocation(), Sound.VILLAGER_HAGGLE, 1, 1);
